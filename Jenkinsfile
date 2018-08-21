@@ -1,5 +1,5 @@
 pipeline {
-          agent any 
+          agent ('any') 
                   {
     
                     stages {
@@ -13,6 +13,7 @@ pipeline {
                                                    echo "this is prod";
                                                    }
                                           }
-                             }
+                             
                     }
           }
+}
